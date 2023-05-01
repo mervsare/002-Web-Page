@@ -124,6 +124,7 @@ footer div a i {
   font-size: 17px;
   box-sizing: border-box;
   border: 2px solid rgb(226, 145, 38);
+  color: antiquewhite;
 }
 .message {
   padding: 8px 12px 70px;
