@@ -1,8 +1,9 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   text-align: center;
+  box-sizing: border-box;
+
   font-family: "Grenze Gotisch", cursive;
 }
 h1 {
@@ -63,7 +64,6 @@ main article {
 }
 h2 {
   color: antiquewhite;
-  box-sizing: border-box;
   margin: 0px 15px 15px;
   padding: 5px 20px;
   background-color: an;
@@ -122,7 +122,6 @@ footer div a i {
   padding: 6px 8px;
   margin: 10px;
   font-size: 17px;
-  box-sizing: border-box;
   border: 2px solid rgb(226, 145, 38);
   color: antiquewhite;
 }
@@ -136,7 +135,7 @@ footer div a i {
   padding: 16px 32px;
   font-size: 18px;
   text-decoration: none;
-  margin: 4px 2px;
+  margin: 4px 2px 30px;
   cursor: pointer;
 }
 #buttons:hover {
@@ -146,4 +145,14 @@ footer div a i {
     6px 6px rgb(226, 145, 38), 8px 8px rgb(226, 145, 38),
     10px 10px rgb(226, 145, 38);
   color: antiquewhite;
+}
+
+#scroll {
+  position: absolute;
+  right: 120px;
+  box-sizing: border-box;
+  color: black;
+  padding: 8px 40px;
+  background-color: rgb(226, 145, 38);
+  font-size: 20px;
 }
